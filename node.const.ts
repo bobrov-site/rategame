@@ -38,4 +38,3 @@ const unixPaths = {
 };
 
 export const paths = isWin ? winPaths : unixPaths;
-

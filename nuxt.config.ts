@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   serverDir: './server',
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: ['@nuxt/ui', "@nuxtjs/google-fonts"],
+  modules: ['@nuxt/ui', '@nuxtjs/google-fonts'],
   googleFonts: {
     families: {
       Roboto: true,
@@ -16,4 +16,4 @@ export default defineNuxtConfig({
     preload: true,
   },
   css: ['@/assets/css/common.scss'],
-})
+});
