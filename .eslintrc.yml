@@ -1,0 +1,50 @@
+env:
+  browser: true
+  es2021: true
+  node: true
+extends:
+  - eslint:recommended
+  - airbnb-base
+  - plugin:vue/essential
+  - plugin:vue/vue3-recommended
+  - '@nuxtjs/eslint-config-typescript'
+parser: vue-eslint-parser
+parserOptions:
+  ecmaVersion: 12
+  sourceType: module
+plugins:
+  - 'vue'
+rules:
+  linebreak-style:
+    - error
+    - unix
+  no-empty:
+    - error
+    - allowEmptyCatch: true
+  no-cond-assign:
+    - error
+    - always
+  for-direction: off
+  # no-spaced-func: on
+  # func-call-spacing:
+  #   - never
+  comma-dangle:
+    - error
+    - always-multiline
+  semi:
+    - error
+    - always
+  func-call-spacing: off
+  no-spaced-func: off
+  space-before-function-paren: off
+  vue/multi-word-component-names: off
+  import/prefer-default-export: off
+  import/extensions: off
+  vue/no-multiple-template-root: off
+  vue/no-v-html: off
+settings:
+  'import/resolver':
+    nuxt:
+      extensions:
+        - '.ts'
+        - '.vue'
