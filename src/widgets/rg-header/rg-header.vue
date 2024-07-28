@@ -4,7 +4,7 @@
       <div class="rg-logo">
         <NuxtLink class="font-bold text-xl flex items-center" to="/">
           RateGame
-          <UIcon name="i-mdi-robot-love-outline ms-1" />
+          <UIcon name="i-mdi-robot-love-outline" class="ms-1" />
         </NuxtLink>
         <!-- mdi:robot-love-outline -->
       </div>
