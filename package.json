@@ -7,11 +7,22 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint --fix --ext .ts,.vue --ignore-path .gitignore .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "@nuxt/ui": "^2.18.2",
     "nuxt": "^3.12.4",
     "vue": "latest"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-import-resolver-nuxt": "^1.0.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-vue": "^9.27.0",
+    "lint-staged": "^15.2.7",
+    "typescript": "^5.5.4"
   }
 }
