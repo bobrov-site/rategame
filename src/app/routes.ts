@@ -16,6 +16,14 @@ export const Routes: {
       path: '/trends',
       title: 'Популярное',
     },
+    registration: {
+      path: '/registration',
+      title: 'Регистрация',
+    },
+    login: {
+      path: '/login',
+      title: 'Вход',
+    },
     terms: {
       path: '/terms',
       title: 'Условия',
