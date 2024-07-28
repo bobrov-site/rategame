@@ -1,10 +1,10 @@
 <template>
   <div class="rg-default">
-    <rr-header />
+    <rg-header />
     <main class="container mx-auto">
       <slot />
     </main>
-    <rr-footer />
+    <rg-footer />
   </div>
 </template>
 
