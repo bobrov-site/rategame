@@ -9,6 +9,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxt/ui', "@nuxtjs/google-fonts"],
   googleFonts: {
-    Roboto: true,
+    families: {
+      Roboto: true,
+    },
+    display: 'swap',
+    preload: true,
   },
+  css: ['@/assets/css/common.scss'],
 })
