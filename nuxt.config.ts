@@ -16,4 +16,7 @@ export default defineNuxtConfig({
     preload: true,
   },
   css: ['@/assets/css/common.scss'],
+  ui: {
+    icons: ['mdi'],
+  },
 });
