@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   serverDir: './server',
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: ['@nuxt/ui', '@nuxtjs/google-fonts'],
+  modules: ['@nuxt/ui', '@nuxtjs/google-fonts', '@nuxt/image'],
   googleFonts: {
     families: {
       Roboto: true,
@@ -19,4 +19,12 @@ export default defineNuxtConfig({
   ui: {
     icons: ['mdi'],
   },
+  image: {
+    dir: 'assets/images',
+    ipx: {
+      maxAge: 1200,
+    },
+    domains: ['localhost:3000'],
+  },
+
 });
