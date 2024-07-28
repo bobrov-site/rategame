@@ -26,5 +26,8 @@ export default defineNuxtConfig({
     },
     domains: ['localhost:3000'],
   },
-
+  runtimeConfig: {
+    igdbIdClient: '',
+    igdbSecretClient: '',
+  },
 });
