@@ -19,6 +19,9 @@ export default defineNuxtConfig({
   ui: {
     icons: ['mdi'],
   },
+  colorMode: {
+    preference: 'system',
+  },
   image: {
     dir: 'assets/images',
     ipx: {
