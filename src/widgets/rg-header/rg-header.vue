@@ -9,6 +9,7 @@
         <!-- mdi:robot-love-outline -->
       </div>
       <UHorizontalNavigation :links="links" />
+      <rg-theme-switch />
     </div>
   </header>
 </template>
