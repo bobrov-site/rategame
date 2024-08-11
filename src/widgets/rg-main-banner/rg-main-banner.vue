@@ -11,13 +11,7 @@
       видеоиграми, оценивать их рейтинг и получать рекомендации на основе их
       просмотров.
     </p>
-    <UInput
-      icon="i-mdi-magnify"
-      size="xl"
-      color="white"
-      :trailing="false"
-      placeholder="Read Dead Redemption 2"
-    />
+    <rg-search-games />
   </div>
 </template>
 
