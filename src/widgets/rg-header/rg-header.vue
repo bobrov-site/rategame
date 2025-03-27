@@ -15,7 +15,7 @@
 </template>
 
 <script setup lang="ts">
-import { Routes } from '~/app/routes';
+import { Routes } from '~/app/config/routes';
 
 const links = [
   {
