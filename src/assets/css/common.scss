@@ -1,1 +1,2 @@
-@import "./typography.scss";
+@use "./typography.scss" as *;
+@use "./reset.scss" as *;
